@@ -57,3 +57,6 @@ body {
   justify-content: left;
   align-items: center;
 }
+.img-style img {
+  height: 55px;
+}
