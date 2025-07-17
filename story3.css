@@ -1,0 +1,119 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fdfcf9;
+  font-family: "Georgia", serif;
+  color: #34495e;
+  line-height: 1.8;
+  padding: 40px 20px;
+  max-width: 850px;
+  margin: auto;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 40px;
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 3px solid rgba(184, 165, 0, 0.58);
+  padding-bottom: 10px;
+}
+
+/* Chapters */
+h2 {
+  font-size: 1.8em;
+  color: #34495e;
+  margin-top: 50px;
+  border-left: 6px solid rgba(184, 165, 0, 0.58);
+  padding-left: 12px;
+  background-color: rgba(184, 165, 0, 0.1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+
+/* Lists */
+ul {
+  margin: 15px 0 25px 30px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 1.05em;
+}
+
+/* Emphasis */
+strong {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+em {
+  color: #555;
+  font-style: italic;
+}
+
+/* Back to Home Link */
+.back-home {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back-home a {
+  text-decoration: none;
+  color: #34495e;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid rgba(184, 165, 0, 0.58);
+  border-radius: 8px;
+  background-color: #fdfcf9;
+  transition: all 0.3s ease;
+}
+
+.back-home a:hover {
+  background-color: rgba(184, 165, 0, 0.58);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 0.95em;
+  color: #999;
+  border-top: 1px solid rgba(184, 165, 0, 0.3);
+  padding-top: 20px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+}
